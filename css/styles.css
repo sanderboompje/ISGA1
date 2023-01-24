@@ -335,8 +335,9 @@ button a {
     font-size: 18px;
 }
 
-.story {
+.write .story {
     font-size: 18px;
+    padding: 0 0 10px 0;
 }
 
 .space {
