@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="Laag_1-2" data-name="Laag 1">
+    <g>
+      <circle class="cls-1" cx="20.55" cy="20.55" r="19.55"/>
+      <path class="cls-1" d="m49.17,40.3l-11.09-11.09c-1.9,3.84-5.03,6.97-8.87,8.87l11.09,11.09c2.44,2.44,6.43,2.44,8.87,0s2.44-6.43,0-8.87Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@font-face {
+    font-family: 'Ketosag';
+    src: url('/fonts/ketosag-font.zip');
+    font-style: normal;
+    font-weight: 300;
+}
+
+body {
+    background: linear-gradient(to left, rgb(67, 124, 205), rgb(69, 214, 202));
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    height: 667px;
+    overflow-x: hidden;
+}
+
+nav {
+    background: linear-gradient(to left, rgb(67, 124, 205), rgb(69, 214, 202));
+    text-align: center;
+    padding: 0;
+    width: 375px;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 6px;
+}
+
+nav li {
+    margin: 0;
+    padding: 0 1em;
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+}
+
+.nav-ico {
+    fill-rule: evenodd;
+    stroke: white;
+    fill: none;
+    stroke-miterlimit: 10;
+    width: 40px;
+    stroke-width: 2px;
+}
+
+li.active .nav-ico {
+    fill-rule: evenodd;
+    stroke: white;
+    fill: white;
+    stroke-miterlimit: 10;
+    width: 40px;
+}
+
+header {
+    text-align: center;
+    height: 75px;
+    width: 375px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: -10px 0 0 0;
+    font-weight: bold;
+    color: white;
+}
+
+header .logo {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    width: auto;
+    height: 40px;
+}
+
+.logo {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    width: auto;
+    height: 150px;
+}
+
+.box {
+    margin: 0 30px;
+    text-align: center;
+    color: white;
+}
+
+.box h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box p {
+    margin: 0px 30px;
+    font-size: 20px;
+}
+
+.box button {
+    font-family: 'Poppins';
+    padding: 18px 20px;
+    margin: 20px 100px 10px 65px;
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    border: none;
+    width: 180px;
+    filter: drop-shadow(2px 5px 8px rgb(13, 5, 59));
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+.box input {
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding: 2px 15px;
+    margin: 0 0 10px 0;
+    border-radius: 10px;
+    width: 228px;
+    border: none;
+    filter: drop-shadow(2px 5px 8px rgb(13, 5, 59));
+}
+
+.map {
+    width: 355px;
+    margin: 10px 10px 0 10px;
+    border-radius: 25px;
+    filter: drop-shadow(2px 5px 8px rgb(13, 5, 59));
+}
+
+.container {
+    padding: 0 0 100px 0;
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+.bar {
+    background-color: white;
+    width: 350px;
+    margin: 10px 12.5px;
+    display: flex;
+    border-radius: 25px;
+}
+
+.bar .search {
+    padding: 16px 5px 0 10px;
+}
+
+.search input {
+    font-size: 18px;
+    resize: none;
+    font-family: 'Poppins';
+    border-radius: 20px;
+    padding: 0 0 0 20px;
+    width: 150px;
+}
+
+.search-ico {
+    fill: none;
+    stroke: #1d1d1b;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    height: 30px;
+    margin: 16px 35px 0 0;
+  }
+  
+.dropdown {
+    position: relative;
+}
+
+.drop-button {
+    font-family: 'Poppins';
+    background-color: white;
+    padding: 16px 0px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    padding: 0 10px;
+    z-index: 2;
+    border-radius: 10px;
+    justify-content: end;
+    right: 0;
+    filter: drop-shadow(2px 5px 8px rgb(13, 5, 59));
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.filter-ico {
+    fill: none;
+    stroke: #1d1d1b;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    height: 30px;
+    margin: 16px 0 -8px 0;
+}
+
+.forum {
+    margin: 20px 12.5px 0 12.5px;
+    padding: 5px 0 0 10px;
+    background-color: white;
+    border-radius: 25px;
+    filter: drop-shadow(2px 5px 8px rgb(13, 5, 59));
+    font-size: 20px;
+}
+
+.forum .route {
+    width: 310px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+.forum .info {
+    margin: 0 0 10px 30px;
+}
+
+.forum .routename {
+    margin: 5px 0 0 0;
+    font-weight: bold;
+}
+
+.forum ul {
+    margin: 10px 0 0 -20px;
+}
+
+.forum .profile {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.forum .name {
+    margin: -40px 0 0 60px;
+    font-size: 18px;
+}
+
+.forum .date {
+    margin: -24px 0 0 200px;
+    padding: 0 0 20px 0;
+    font-size: 18px;
+}
+
+.frame {
+    border: none;
+    width: 375px;
+    height: 470px;
+}
+
+.back-ico {
+    fill: none;
+    stroke: white;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 3px;
+}
+
+.back {
+    height: 40px;
+    padding: 5px 0 0 10px;
+    margin: -80px 0 0 0px;
+}
+
+.write {
+    margin: 20px 12.5px;
+    padding: 5px 0 0 10px;
+    background-color: white;
+    border-radius: 25px;
+    filter: drop-shadow(2px 5px 8px rgb(13, 5, 59));
+    font-size: 20px;
+}
+
+.write .info {
+    margin: 30px 30px 10px 30px;
+}
+
+.write .routename {
+    margin: 5px 0 0 0;
+    font-weight: bold;
+}
+
+.write ul {
+    margin: 10px 0 30px -20px;
+}
+
+.write .profile {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.write .name {
+    margin: -40px 0 0 60px;
+    font-size: 18px;
+}
+
+.write .date {
+    margin: -24px 0 0 194px;
+    font-size: 18px;
+}
+
+.story {
+    font-size: 18px;
+}
+
+.space {
+    height: 60px;
+}
