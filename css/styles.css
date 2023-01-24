@@ -216,6 +216,12 @@ button a {
     display: block;
 }
 
+.dropdown-content .active {
+    background-color: #b9b9b9;
+    padding: 4px 6px;
+    border-radius: 10px;
+}
+
 .filter-ico {
     fill: none;
     stroke: #1d1d1b;
