@@ -12,8 +12,6 @@ body {
     font-family: 'Poppins';
     margin: 0;
     padding: 0;
-    width: 375px;
-    height: 667px;
     overflow-x: hidden;
 }
 
@@ -21,7 +19,7 @@ nav {
     background: linear-gradient(to left, rgb(67, 124, 205), rgb(69, 214, 202));
     text-align: center;
     padding: 0;
-    width: 375px;
+    width: 100%;
     position: fixed;
     bottom: 0;
     z-index: 4;
@@ -63,7 +61,7 @@ li.active .nav-ico {
 header {
     text-align: center;
     height: 75px;
-    width: 375px;
+    width: 100%;
 }
 
 header a {
@@ -281,6 +279,8 @@ button a {
     width: 375px;
     height: 470px;
 }
+
+
 
 .back-ico {
     fill: none;
