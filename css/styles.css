@@ -232,6 +232,12 @@ button a {
     margin: 16px 0 -8px 0;
 }
 
+.explain {
+    margin: 10px 30px;
+    font-size: 20px;
+    color: white;
+}
+
 .forum {
     margin: 20px 12.5px 0 12.5px;
     padding: 5px 0 0 10px;
@@ -249,13 +255,35 @@ button a {
     border-radius: 25px;
 }
 
+.forum .like-ico {
+    width: 30px;
+    fill-rule: evenodd;
+    stroke: black;
+    fill: none;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    margin: 0 5px 0 0;
+}
+
+.forum .popular {
+    font-size: 18px;
+    margin: 0;
+}
+
+.likes {
+    display: flex;
+    flex-flow: row;
+    margin: 0 0 0 30px;
+}
+
 .forum .info {
     margin: 0 0 10px 30px;
 }
 
 .forum .routename {
-    margin: 5px 0 0 0;
+    margin: 0;
     font-weight: bold;
+    width: 220px;
 }
 
 .forum ul {
@@ -267,6 +295,7 @@ button a {
     width: 40px;
     height: 40px;
     object-fit: cover;
+    margin: 10px 0 0 0;
 }
 
 .forum .name {
@@ -283,10 +312,8 @@ button a {
 .frame {
     border: none;
     width: 375px;
-    height: 470px;
+    height: 500px;
 }
-
-
 
 .back-ico {
     fill: none;
